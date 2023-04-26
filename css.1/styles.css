@@ -1,0 +1,75 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: black;
+    color:rgb(28, 27, 27) ;/* this is font color*/
+    background-image: url(https://c0.wallpaperflare.com/preview/715/978/572/sweden-lule%C3%A5-fog-tranquil.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+img{
+    display: block;
+    border: 2px solid black;
+    margin: auto;
+    text-align: center;
+}
+    a:visited{
+            color: white;
+    }
+    li{
+        font-style:italic;
+    }
+    li:hover{
+        font-size: 105%;
+        text-decoration: underline;
+        color: white;
+
+    }
+.common{
+    position: absolute;
+}
+.nav{
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background-color: black;
+}
+.footer{
+    position: fixed;
+    background-color: black;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    text-align: center;
+}
+.content{
+    left: 0;
+    right: 0;
+    text-align:left;
+}
+.gallery img{
+    display: inline;
+    width: 19%;
+}
+.text{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font: bolder;font-size: larger;
+}
+
+.customize{
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ol{
+    font-size: larger;
+}
+
+ul{
+    font-size: medium;
+}
+
+.ul1 {
+    font-size:medium;font-family:Arial, Helvetica, sans-serif
+}
